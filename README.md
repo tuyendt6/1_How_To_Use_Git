@@ -18,7 +18,7 @@
 
 4. push source code to other branch (not default branch )
   - git remote add branch_name https://github.com/tuyendt6/dsfdsfsdf.git ( add branch )
-  - git feth branch_name ( change current branch in local , notice the name path)
+  - git fetch branch_name ( change current branch in local , notice the name path)
   - git commit -m "first commit"
   - git push origin master:branch_name ( push code to branch_name ) .
 
