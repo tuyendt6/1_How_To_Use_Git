@@ -22,3 +22,9 @@
   - git commit -m "first commit"
   - git push origin master:branch_name ( push code to branch_name ) .
 
+5. revert file in git :
+
+   # Revert changes to modified files.
+      git reset --hard
+   # Remove all untracked files and directories. (`-f` is `force`, `-d` is `remove directories`)
+      git clean -fd
